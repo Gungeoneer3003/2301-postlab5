@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/q2_tb_behav/webtalk/
+webtalk_init -webtalk_dir C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/PostLab5Sim_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Sat Oct  3 22:04:25 2026" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Mon Oct  5 16:56:37 2026" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3064766" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -22,22 +22,11 @@ webtalk_add_data -client project -key cpu_speed -value "2496 MHz" -context "user
 webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
 webtalk_add_data -client project -key system_ram -value "16.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
-webtalk_add_data -client xsim -key SystemVerilog -value "true" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key File_Counter -value "3" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key Command -value "xelab" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key Vhdl2008 -value "false" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key GenDLL -value "false" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key SDFModeling -value "false" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key HWCosim -value "false" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key DPI_Used -value "false" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key Debug -value "typical" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key Simulation_Image_Code -value "65 KB" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Image_Data -value "2 KB" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Total_Processes -value "18" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Total_Instances -value "3" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.72_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "57628_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1296796349 -regid "" -xml C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/q2_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/q2_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/q2_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
+webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
+webtalk_add_data -client xsim -key runtime -value "200 ns" -context "xsim\\usage"
+webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.06_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "8612_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 234040666 -regid "" -xml C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/PostLab5Sim_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/PostLab5Sim_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/xsim.dir/PostLab5Sim_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

@@ -1,0 +1,1 @@
+-wto "4bdd3f017e834625a5545122f967abe8" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "PostLab5Sim_behav" "xil_defaultlib.PostLab5Sim" "xil_defaultlib.glbl" -log "elaborate.log" 

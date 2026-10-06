@@ -2,6 +2,8 @@
 2020.2
 Nov 18 2020
 09:47:47
+C:/Users/chris/vivado/2301-postlab5/PostLab5Design.sv,1791222804,systemVerilog,,C:/Users/chris/vivado/2301-postlab5/PostLab5Sim.sv,,PostLab5Design;adder4bit;dataArray;decoder2to4;sevenSegment,,uvm,,,,,,
+C:/Users/chris/vivado/2301-postlab5/PostLab5Sim.sv,1791222804,systemVerilog,,,,PostLab5Sim,,uvm,,,,,,
 C:/Users/chris/vivado/2301-postlab5/postlab5.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
 C:/Users/chris/vivado/2301-postlab5/postlab5.srcs/sim_1/new/q2_tb.sv,1791090254,systemVerilog,,,,q2_tb,,uvm,,,,,,
-C:/Users/chris/vivado/2301-postlab5/postlab5.srcs/sources_1/new/q2.sv,1791089681,systemVerilog,,C:/Users/chris/vivado/2301-postlab5/postlab5.srcs/sim_1/new/q2_tb.sv,,q2,,uvm,,,,,,
+C:/Users/chris/vivado/2301-postlab5/postlab5.srcs/sources_1/new/q2.sv,1791240034,systemVerilog,,C:/Users/chris/vivado/2301-postlab5/postlab5.srcs/sim_1/new/q2_tb.sv,,priority_encoder,,uvm,,,,,,

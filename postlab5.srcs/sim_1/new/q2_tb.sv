@@ -24,7 +24,7 @@ module q2_tb();
     logic [3:0] sI;
     logic [1:0] sY;
     
-    q2 UUT (
+    priority_encoder UUT (
         .I(sI),
         .Y(sY)
     );
