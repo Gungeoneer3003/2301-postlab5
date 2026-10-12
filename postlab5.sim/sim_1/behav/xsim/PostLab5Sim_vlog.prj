@@ -1,5 +1,5 @@
 # compile verilog/system verilog design source files
-sv xil_defaultlib  \
+sv xil_defaultlib  --include "../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef" \
 "../../../../PostLab5Design.sv" \
 "../../../../PostLab5Sim.sv" \
 

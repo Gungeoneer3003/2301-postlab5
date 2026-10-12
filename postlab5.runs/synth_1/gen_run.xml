@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1791242421">
-  <File Type="PA-TCL" Name="PostLab5Design.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="PostLab5Design_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="PostLab5Design_reports.tcl"/>
-  <File Type="RDS-RDS" Name="PostLab5Design.vds"/>
   <File Type="RDS-UTIL" Name="PostLab5Design_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="PostLab5Design_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="PostLab5Design.tcl"/>
+  <File Type="RDS-RDS" Name="PostLab5Design.vds"/>
   <File Type="RDS-DCP" Name="PostLab5Design.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="PostLab5Design_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="PostLab5Design_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/PostLab5Design.sv">
